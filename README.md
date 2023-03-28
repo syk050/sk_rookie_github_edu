@@ -36,3 +36,16 @@ https://drive.google.com/drive/folders/1XT4kQhIp9J4MLuYEepGy95cKDio2DzI1
 4. 설치완료
 
 5. 외부에서 http://<리눅스서버IP>:8000 으로 접속하여 로그인 확인.
+
+
+deb http://ftp.daumkakao.com/ubuntu/ focal main
+deb http://archive.ubuntu.com/ubuntu/ focal main
+
+deb http://ftp.daumkakao.com/ubuntu/ focal universe
+deb http://archive.ubuntu.com/ubuntu/ focal universe
+
+deb http://ftp.daumkakao.com/ubuntu/ focal multiverse
+deb http://archive.ubuntu.com/ubuntu/ focal multiverse
+
+deb http://ftp.daumkakao.com/ubuntu/ focal restricted
+deb http://archive.ubuntu.com/ubuntu/ focal restricted
